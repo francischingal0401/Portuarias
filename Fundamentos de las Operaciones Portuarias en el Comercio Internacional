@@ -1,0 +1,223 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Operaciones Portuarias</title>
+   <style>
+    body {
+      display: flex;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f7f8;
+    }
+
+    nav {
+      width: 260px;
+      background-color: #00800d;
+      color: white;
+      height: 100vh;
+      position: sticky;
+      top: 0;
+      overflow-y: auto;
+      padding: 20px;
+    }
+
+    nav h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 8px 0;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    nav a:hover {
+      background-color: #00800d;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2, section h3 {
+      color: #00800d;
+    }
+
+    .highlight {
+      background-color: #fff3cd;
+      border-left: 5px solid #ffc107;
+      padding: 10px;
+      margin: 20px 0;
+    }
+
+    img {
+      width: 100%;
+      max-width: 600px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e6f2ff;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Contenido</h2>
+    <a href="#tema1">Tema 1: Fundamentos</a>
+    <a href="#que-es">1.1 ¿Qué es una operación portuaria?</a>
+    <a href="#importancia">1.2 Importancia</a>
+    <a href="#clasificacion">1.3 Clasificación</a>
+    <a href="#conectividad">1.4 Conectividad Internacional</a>
+    <a href="#tema2">Tema 2: Infraestructura</a>
+    <a href="#infraestructura">2.1 Infraestructura</a>
+    <a href="#equipamiento">2.2 Equipamiento</a>
+    <a href="#interfaz">2.3 Conexiones Intermodales</a>
+    <a href="#tema3" class="text-blue-800 font-semibold">Tema 3: Gestión Documental</a></li>
+    <a href="#op11">3.1 Flujo documental</a></li>
+    <a href="#op12">3.2 Procesos aduaneros</a></li>
+    <a href="#op13">3.3 Contratación comercial</a></li>
+    <a href="#op14">3.4 Digitalización documental</a></li>
+    <a href="#referencias">Referencia Bibliográfica</a></li>
+      </ul>
+  </nav>
+  <main>
+    <section id="tema1">
+      <h2>Tema 1: Fundamentos de las Operaciones Portuarias</h2>
+      <p>Los fundamentos de las operaciones portuarias son esenciales para comprender cómo se organiza y gestiona el comercio marítimo a nivel global.</p>
+    </section>
+
+    <section id="que-es">
+      <h3>1.1 ¿Qué es una operación portuaria?</h3>
+      <p>Una operación portuaria comprende actividades como la carga y descarga de buques, el almacenamiento de mercancías, el control documental, y la interacción con aduanas y agentes logísticos. Estas tareas permiten conectar eficientemente los modos de transporte marítimo, terrestre, ferroviario y aéreo.</p>
+      <div class="highlight"><strong>Dato clave:</strong> La eficiencia portuaria mejora la competitividad de un país en el comercio exterior.</div>
+      <img src="1Image_Embarcación.jpg" alt="Operaciones portuarias">
+    </section>
+
+    <section id="importancia">
+      <h3>1.2 Importancia de los Puertos</h3>
+      <p>Los puertos son los pulmones logísticos del comercio internacional. Actúan como puntos de enlace para el tránsito de mercancías entre continentes. Además, generan empleo y desarrollo económico para las regiones donde se ubican.</p>
+      <p>Sus principales funciones incluyen: recepción de buques, almacenamiento temporal, despacho aduanero, y conexión con rutas terrestres y ferroviarias.</p>
+      <img src="Barcos_2.jpg" alt="Importancia de los puertos">
+    </section>
+
+    <section id="clasificacion">
+      <h3>1.3 Clasificación de los Puertos</h3>
+      <p>Los puertos pueden clasificarse según su ubicación y función. Por ejemplo, un puerto marítimo se encuentra en la costa, mientras que un puerto seco está ubicado en el interior del país pero conectado logísticamente a uno marítimo.</p>
+      <table>
+        <thead>
+          <tr><th>Tipo</th><th>Ubicación</th><th>Ejemplo</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Marítimo</td><td>Costa</td><td>Puerto de Guayaquil</td></tr>
+          <tr><td>Fluvial</td><td>Río</td><td>Puerto de Manaos</td></tr>
+          <tr><td>Seco</td><td>Interior</td><td>Aeropuerto de Quito</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="conectividad">
+      <h3>1.4 Puertos y Conectividad Internacional</h3>
+      <p>Un puerto bien conectado tiene acceso a redes internacionales (foreland) y a zonas industriales interiores (hinterland). Esta conectividad es vital para el comercio exterior y el desarrollo logístico.</p>
+      <img src="Contecon_Guayaquil3.jpg" alt="Conectividad portuaria">
+    </section>
+
+    <section id="tema2">
+      <h2>Tema 2: Infraestructura y Zonas Operativas</h2>
+      <p>La infraestructura portuaria es clave para la eficiencia de las operaciones. Cada tipo de puerto necesita estructuras y tecnologías específicas.</p>
+    </section>
+
+    <section id="infraestructura">
+      <h3>2.1 Infraestructura Portuaria</h3>
+      <p>Incluye muelles, canales dragados, terminales de contenedores y graneles, patios de almacenamiento, y accesos terrestres. Todo esto permite operar buques de gran tamaño y manejar grandes volúmenes de carga.</p>
+      <img src="Infraestructura_3.jpg" alt="Importancia de los puertos">
+    </section>
+
+    <section id="equipamiento">
+      <h3>2.2 Equipamiento y Tecnología</h3>
+      <p>Los puertos modernos utilizan grúas STS, montacargas, vehículos automatizados (AGVs) y escáneres de seguridad para acelerar y asegurar el movimiento de mercancías.</p>
+      <img src="Equipamiento.jpg" alt="Equipamiento portuario">
+    </section>
+
+    <section id="interfaz">
+      <h3>2.3 Conexiones Intermodales</h3>
+      <p>La conexión entre modos de transporte (carretera, ferrocarril, marítimo, aéreo) permite que la carga llegue de manera eficiente al destino final. La infraestructura intermodal es vital en la cadena logística moderna.</p>
+      <img src="Conexiones.jpg" alt="Conexiones">
+    </section>
+
+
+    <section id="tema3">
+    <h2 class="text-2xl font-bold text-blue-800">Tema 3: Gestión Documental, Contractual y Aduanera</h2>
+    <section id="op11">
+      <h3 class="text-xl font-semibold mt-4">3.1 Flujo documental</h3>
+      <p>Documentos clave como el Bill of Lading, la carta porte y la guía aérea son esenciales para el comercio internacional.</p>
+      <img src="doc2.jpg" alt="Documentacion2">
+    </section>
+
+    <section id="op12">
+      <h3 class="text-xl font-semibold mt-4">3.2 Procesos aduaneros</h3>
+      <p>Incluyen clasificación arancelaria, declaración aduanera, inspección documental y física para el control de mercancías.</p>
+      <img src="doc1.jpg" alt="Documentacion1">
+
+    </section>
+    <section id="op13">
+      <h3 class="text-xl font-semibold mt-4">3.3 Contratación y relaciones comerciales</h3>
+      <p>Contratos como Incoterms, fletamento y logística regulan responsabilidades y costos entre las partes involucradas.</p>
+      <img src="Incoterms.jpg" alt="Interfaz intermodal puerto">
+
+    </section>
+    <section id="op14">
+      <h3 class="text-xl font-semibold mt-4">3.4 Digitalización documental</h3>
+      <p>Plataformas como la VUCE, tecnologías como Blockchain y documentos electrónicos modernizan y agilizan los procesos portuarios.</p>
+      <img src="Tecnología Logística.jpg" alt="Interfaz intermodal puerto">
+
+
+      <section id="referencias">
+        <h2 class="text-2xl font-bold text-blue-800">Referencias bibliográficas</h2>
+        <ul class="list-disc pl-6 space-y-2 mt-4">
+          <li>Cámara de Comercio Internacional (CCI). (2020). <em>Incoterms 2020: Reglas oficiales para la interpretación de términos comerciales</em>. CCI.</li>
+          <li>CEPAL. (2022). <em>Logística y Puertos en América Latina y el Caribe</em>. Comisión Económica para América Latina y el Caribe. https://www.cepal.org/es/temas/transporte</li>
+          <li>Diario del exportador. (2014, 2 noviembre). <em>Carta porte para el transporte terrestre</em>. https://www.diariodelexportador.com/2014/11/carta-porte-para-el-transporte_2.html</li>
+          <li>Ferrer, V. (2021, 23 febrero). <em>Bill of lading</em>. https://vicentferrer.com/bill-of-lading/</li>
+          <li>ICS (International Chamber of Shipping). (2021). <em>Shipping and the Environment: Ports and Sustainability</em>.</li>
+          <li>Ministerio de Producción, Comercio Exterior, Inversiones y Pesca del Ecuador. (2023). <em>Sistema VUCE Ecuador</em>. https://www.vuce.gob.ec/</li>
+          <li>Notteboom, T., & Rodrigue, P. (2021). <em>Port Economics, Management and Policy</em>. Routledge.</li>
+          <li>Organización Mundial de Aduanas (OMA). (2022). <em>Manual sobre Clasificación Arancelaria y Facilitación del Comercio</em>. https://www.wcoomd.org/</li>
+          <li>UNCTAD. (2023). <em>Review of Maritime Transport 2023</em>. https://unctad.org/publication/review-maritime-transport-2023</li>
+          <li>World Bank. (2020). <em>Port Reform Toolkit</em>. https://ppiaf.org/documents/2089/download</li>
+        </ul>
+
+    </section>
+  </ul>
+ </footer>
+</body>
+</html>
+
